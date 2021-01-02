@@ -1,0 +1,30 @@
+.card {
+  &, &__text {
+    background: #000;
+    color: white;
+    width: 100%;
+    height: 100%;
+    //padding: 10px;
+    //margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__picture {
+      /* display: block; */
+      width: 100%;
+      //border: 5px solid white;
+    }
+
+    //&__text {
+    //  display: flex;
+    //  flex-direction: column;
+    //  justify-content: center;
+    //  align-items: center;
+    //  width: 100%;
+    //  height: 100%;
+    //}
+  }
+}
+

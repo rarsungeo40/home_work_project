@@ -1,0 +1,29 @@
+.title {
+
+}
+
+@mixin heading($font_size) {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: $font_size;
+    background: yellowgreen;
+    display: flex;
+    align-items: center;
+  }
+
+.h1 {
+    @include heading(40px);
+}
+
+.h2 {
+    @include heading(30px);
+}
+
+.h3 {
+    @include heading(20px);
+}
+
+.h4 {
+    @include heading(16px);
+}

@@ -1,0 +1,33 @@
+$gradient_blue_white: linear-gradient(to right, rgb(0, 22, 63), rgb(255, 255, 255));
+
+.houseItem {
+    background: #000;
+    color: white;
+    width: 500px;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__picture {
+        /* display: block; */
+        width: 100%;
+        border: 5px solid white;
+    }
+
+    &__activ_btn {
+        background-image: $gradient_blue_white;
+    }
+
+    &__to_like {
+        background:red;
+        color: white;
+    }
+
+    &__liked {
+        background: rgb(1, 119, 134);
+    }
+}
+
